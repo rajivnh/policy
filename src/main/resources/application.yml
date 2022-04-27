@@ -1,0 +1,21 @@
+spring:
+  config:
+    import: configserver:http://172.17.0.6:8888
+  application:
+    name: policy
+  main:
+    allow-bean-definition-overriding: 'true'
+  cloud:
+    kubernetes:
+      discovery:
+        discovery-server-url: http://172.17.0.5:8761
+  mvc:
+    servlet:
+      path: /policy
+  profiles:
+    active: production
+server:
+  port: '800'
+  
+vendor:
+  name: Spring

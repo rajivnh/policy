@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: policy
+data:
+  application.yml: |
+    vendor:
+      name: ICW Datahouse Minikube 
+    ---
+    spring:
+      profiles: development
+    vendor:
+      name: ICW Datahouse Minikube Development
+    ---
+    spring:
+      profiles: production
+    vendor:
+      name: ICW Datahouse Minikube Production
