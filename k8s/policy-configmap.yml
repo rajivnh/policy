@@ -5,14 +5,14 @@ metadata:
 data:
   application.yml: |
     vendor:
-      name: ICW Datahouse Minikube 
+      name: Spring Minikube 
     ---
     spring:
       profiles: development
     vendor:
-      name: ICW Datahouse Minikube Development
+      name: Spring Minikube Development
     ---
     spring:
       profiles: production
     vendor:
-      name: ICW Datahouse Minikube Production
+      name: Spring Minikube Production
