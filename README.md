@@ -1,4 +1,4 @@
-Spring Cloud Discovery Server / Spring Cloud Config server for Kubernetes integration with Feign Client or RestTemplate
+Spring Cloud Discovery Server / Spring Cloud Config server for Kubernetes integration with Feign Client / RestTemplate
 
 New Features For Spring Cloud Kubernetes Introduced In Spring Cloud 2021.0.0-M3
 
